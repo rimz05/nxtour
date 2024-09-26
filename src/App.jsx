@@ -6,7 +6,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const res = await axios.get('http://172.105.55.211/api/testApi.php?type=getHolidayPackage');
+      const res = await axios.get(`http://172.105.55.211/api/testApi.php?type=getHolidayPackage`);
       console.log(res.data.data); 
       setAns(res.data.data);
     } catch (err) {
