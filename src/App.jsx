@@ -19,7 +19,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container m-auto pt-4 flex justify-center bg-[#320DA8] w-full h-[100vh]">
+    <div className="container m-auto pt-4 flex justify-center bg-[#320DA8] w-full h-h-full">
       <ul className="flex flex-col gap-8">
         {ans.map((item, index) => (
           <li key={index} className="bg-white rounded-lg shadow-lg overflow-hidden w-[360px]">
